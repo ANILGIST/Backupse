@@ -1,0 +1,4 @@
+${message}
+%{~ for r in alerting_receivers ~}
+@${r}
+%{endfor}
